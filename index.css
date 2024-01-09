@@ -1,8 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
-    border: 0;
-    
     
 }
 
@@ -11,27 +8,28 @@
     height: 600px;
     flex-shrink: 0;
     border-radius: 16px;
-    background-image: url(imescs/Banner\ Image.png);
+    background-image: url(imescs/banner\ image.png);
     margin: 0 auto;
     
 
 
 }
 
- h6 {
+ h6{
     color: #FFF;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-family: Merriweather;
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 50px;
+    padding: 50px 70px ;
+   
     
-
 }
 
-h1 {
+h1{
     
     color: #FFF;
     text-align: center;
@@ -40,7 +38,7 @@ h1 {
     font-style: normal;
     font-weight: 900;
     line-height: 95px; /* 131.944% */
-    padding-top: 15px;
+    padding:  50px 100px;
 }
 h2{
     color: #F00;
@@ -76,7 +74,7 @@ h3{
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
-    background-image: url(imescs/New\ Year\ Photo.png);
+    background-image: url(imescs/new\ year\ photo.png);
     margin: 0 auto;
 
     
@@ -87,7 +85,7 @@ h3{
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
-    background-image: url(imescs/Vectorrr.png);
+    background-image: url(imescs/vectorrr.png);
     margin: 0 auto;
 }
 
@@ -112,7 +110,8 @@ h3{
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
-    margin-top: 10px;
+     padding: 20px 30px;
+    
 }
  
 .fixt {
@@ -124,6 +123,15 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
+padding: 100px;
+display: block;
+}
+
+.seckson-img{
+   width: 1320px;
+   height: 482px;
+   flex-shrink: 0;
+   fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
 .te{
@@ -155,6 +163,23 @@ text-transform: capitalize;
     color: #F00;
 }
 
+.red{
+    background-color: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.kul{
+    text-align: center;
+    padding: 50px;
+}
 
 
 
@@ -244,14 +269,14 @@ line-height: 32px; /* 160% */
 
 .new20{
     width: 1320px;
-    height: 400px;
+    height: 616px;
     flex-shrink: 0;
     border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
+background: rgba(255, 0, 0, 0.05);
 }
 
 .new21{
-    background-image: url(imescs/Group\ 61.png);
+    background-image: url(imescs/group\ 61.png);
     width: 150px;
 height: 150px;
 flex-shrink: 0;
@@ -278,4 +303,113 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 160% */
+}
+
+.sek{
+    height: 100px;
+}
+.seckson-png{
+   
+   width: 400px;
+   height: 72px;
+  flex-shrink: 0;
+   padding-right: 50px;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.sekson-pn{
+    color:red;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+align-items: center;
+}
+
+.seckson-imj{
+    width: 300px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+     background: #F00;
+     align-items: center;
+     display: flex;
+}
+
+.secson-ul{
+    text-align: center;
+}
+
+.bodar{
+    width: 100px;
+height: 100px;
+background: #FFF;
+}
+
+.bolg{
+    width: 1600px;
+height: 609px;
+flex-shrink: 0;
+background: #070211;
+}
+
+.sep{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+   
+}
+
+.sepe{
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+padding-right: 1000px;
+text-align: center;
+    
+}
+
+.sepo{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+text-align: center;
+}
+
+.ax{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sec{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.ace{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
 }
